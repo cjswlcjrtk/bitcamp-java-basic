@@ -14,6 +14,10 @@ class WhatName{
         age = scanner.nextInt();
         // System.out.print("이름은 " + name + "이다");
         System.out.print("이름은 " + name + ", 이고\n 나이는 " + age + "살 이다.");
+
+        System.out.println(String.format("이름은 %s 입니다", name));
+
+        System.out.println(String.format("이름은 %d 입니다", age));
     }
     
 
